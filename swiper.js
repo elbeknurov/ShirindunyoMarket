@@ -8,9 +8,6 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
   // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
 
   // Navigation arrows
   navigation: {
