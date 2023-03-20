@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #fff;
   .header__line {
-    border-bottom: 2px solid #003d29;
+    border-bottom: 2px solid #026745;
     width: 100%;
     padding-bottom: 20px;
   }
@@ -22,7 +22,7 @@
     font-family: "Roboto";
     font-weight: 900;
     font-size: 35px;
-    color: #003d29;
+    color: #026745;
   }
 
   .header__list {
@@ -38,6 +38,14 @@
     font-size: 16px;
     line-height: 18px;
     color: #231f1e;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #026745;
+    }
+    &:active {
+      color: #bcbcbc;
+    }
   }
   .header__platforma {
     display: flex;
@@ -65,7 +73,7 @@
   }
 }
 .nav__top {
-  background: #003d29;
+  background: #026745;
   padding: 10px;
 }
 .nav__top-wrapper {
@@ -120,7 +128,7 @@
       display: none;
     }
     .header__menu {
-      display: block;
+      display: none;
     }
     .header__instagram {
       width: 25px;
