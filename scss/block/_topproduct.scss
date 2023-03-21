@@ -83,7 +83,14 @@
   }
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 480px) {
+  .topproduct {
+    .topproduct__div {
+      width: 190px;
+    }
+  }
+}
+@media only screen and (max-width: 418px) {
   .topproduct {
     .topproduct__divs {
       align-items: center;

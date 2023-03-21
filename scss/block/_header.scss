@@ -128,7 +128,10 @@
       display: none;
     }
     .header__menu {
-      display: none;
+      display: block;
+    }
+    #menuToggle {
+      top: 65px;
     }
     .header__instagram {
       width: 25px;
@@ -170,6 +173,9 @@
       font-size: 11px;
       line-height: 18px;
       width: 100%;
+    }
+    #menuToggle {
+      top: 77px;
     }
   }
 }
@@ -266,7 +272,7 @@ a:hover {
 }
 
 #menu {
-  position: absolute;
+  position: fixed;
   width: 300px;
   margin: -100px 0 0 0;
   padding: 50px;
