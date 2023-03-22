@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #fff;
   .header__line {
-    border-bottom: 2px solid #026745;
+    border-bottom: 2px solid #6a37eb;
     width: 100%;
     padding-bottom: 20px;
   }
@@ -22,7 +22,7 @@
     font-family: "Roboto";
     font-weight: 900;
     font-size: 35px;
-    color: #026745;
+    color: #6a37eb;
   }
 
   .header__list {
@@ -68,9 +68,9 @@
     &-active {
       display: block;
     }
-    background-color: #026745;
-    width: 400px;
-    height: 100vh;
+    background-color: #6a37eb;
+    max-width: 100%;
+    height: 100vw;
     position: absolute;
     top: 0;
     right: 0;
@@ -93,7 +93,7 @@
   .hamburger__href {
     font-family: "Roboto";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 18px;
     color: #fff;
 
@@ -126,7 +126,7 @@
   }
 }
 .nav__top {
-  background: #026745;
+  background: #6a37eb;
   padding: 10px;
 }
 .nav__top-wrapper {
