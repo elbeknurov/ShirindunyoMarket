@@ -90,7 +90,23 @@
     }
   }
 }
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 420px) {
+  .topproduct {
+    .topproduct__div {
+      width: 180px;
+    }
+    .topproduct__img {
+      width: 120px;
+      height: 130px;
+    }
+
+    .topproduct__paragraph {
+      max-width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 398px) {
   .topproduct {
     .topproduct__divs {
       align-items: center;
