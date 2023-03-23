@@ -1,3 +1,26 @@
+.nav__top {
+  background: #f4f5f5;
+  padding: 10px;
+}
+.nav__top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__top-href {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6a37eb;
+}
+.nav__top-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #6a37eb;
+}
 .header {
   padding-bottom: 20px;
   width: 100%;
@@ -37,7 +60,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
-    color: #231f1e;
+    color: #6a37eb;
     transition: all 0.3s ease;
 
     &:hover {
@@ -124,29 +147,6 @@
   .swiper-scrollbar {
     display: none;
   }
-}
-.nav__top {
-  background: #6a37eb;
-  padding: 10px;
-}
-.nav__top-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav__top-href {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 18px;
-  color: #fff;
-}
-.nav__top-text {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 18px;
-  color: #fff;
 }
 
 @media only screen and (max-width: 1020px) {
